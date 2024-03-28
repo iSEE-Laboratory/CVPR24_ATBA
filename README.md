@@ -1,6 +1,6 @@
 # [CVPR2024] Efficient and Effective Weakly-Supervised Action Segmentation via Action-Transition-Aware Boundary Alignment  
 
-This is the code for CVPR2024 paper *Efficient and Effective Weakly-Supervised Action Segmentation via Action-Transition-Aware Boundary Alignment*.
+This is the official PyTorch implementation for CVPR2024 paper *Efficient and Effective Weakly-Supervised Action Segmentation via Action-Transition-Aware Boundary Alignment*.
 
 
 
@@ -14,7 +14,7 @@ This is the code for CVPR2024 paper *Efficient and Effective Weakly-Supervised A
 
 ## Data
 
-The datasets can be download in [Link](https://drive.google.com/drive/folders/1bOvo2g05gI0jArgN_vznxSg_ns32NDbd?usp=sharing), and please put them into the ``./data`` folder. Note that this link does not include the features. Please download the features from the following links and put them into the ``features`` subfolder of each dataset:
+The datasets can be download in [Link](https://drive.google.com/drive/folders/1bOvo2g05gI0jArgN_vznxSg_ns32NDbd?usp=sharing). Please create a ``./data`` folder and put them in. Note that this link does not include the features. Please download the features from the following links and put them into the ``features`` subfolder of each dataset:
 
 - Breakfast: We use the features of MS-TCN. [Link](https://github.com/yabufarha/ms-tcn).
 - Hollywood: The features are extracted by us. [Link](https://drive.google.com/drive/folders/1bOvo2g05gI0jArgN_vznxSg_ns32NDbd?usp=sharing).
